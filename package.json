@@ -65,9 +65,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:smakosh/gatsby-portfolio-dev.git"
+    "url": "https://github.com/adam-lowe/adam-lowe.dev"
   },
   "bugs": {
-    "url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
+    "url": "https://github.com/adam-lowe/adam-lowe.dev/issues"
   }
 }
