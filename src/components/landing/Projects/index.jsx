@@ -1,75 +1,76 @@
-import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
-import { Container, Card } from 'components/common'
-import starIcon from 'assets/icons/star.svg'
-import forkIcon from 'assets/icons/fork.svg'
-import { Wrapper, Grid, Item, Content, Stats } from './styles'
+import React from 'react';
+import { Container } from 'components/common';
+import { Wrapper, Grid } from './styles';
 
-export const Projects = () => {
-  const {
-    github: {
-      viewer: {
-        repositories: { edges },
-      },
-    },
-  } = useStaticQuery(
-    graphql`
-      {
-        github {
-          viewer {
-            repositories(
-              first: 8
-              orderBy: { field: STARGAZERS, direction: DESC }
-            ) {
-              edges {
-                node {
-                  id
-                  name
-                  url
-                  description
-                  stargazers {
-                    totalCount
-                  }
-                  forkCount
-                }
-              }
-            }
-          }
-        }
-      }
-    `
-  )
-  return (
-    <Wrapper as={Container} id="projects">
-      <h2>Projects</h2>
-      <Grid>
-        {edges.map(({ node }) => (
-          <Item
-            key={node.id}
-            as="a"
-            href={node.url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Card>
-              <Content>
-                <h4>{node.name}</h4>
-                <p>{node.description}</p>
-              </Content>
-              <Stats>
-                <div>
-                  <img src={starIcon} alt="stars" />
-                  <span>{node.stargazers.totalCount}</span>
-                </div>
-                <div>
-                  <img src={forkIcon} alt="forks" />
-                  <span>{node.forkCount}</span>
-                </div>
-              </Stats>
-            </Card>
-          </Item>
-        ))}
-      </Grid>
-    </Wrapper>
-  )
-}
+export const Projects = () => (
+  <Wrapper as={Container} id="projects">
+    <h2>Projects</h2>
+    <Grid>
+      <a href="https://adam-lowe.github.io/Password-Generator/" target="_blank" rel="noopener noreferrer">
+        <div className="portpic portpic1">
+          <h3>Password Generator</h3>
+        </div>
+      </a>
+      <a href="https://adam-lowe.github.io/Coding-Quiz-Challenge/" target="_blank" rel="noopener noreferrer">
+        <div className="portpic portpic2">
+          <h3>Coding Quiz</h3>
+        </div>
+      </a>
+      <a href="https://adam-lowe.github.io/Day-Planner/" target="_blank" rel="noopener noreferrer">
+        <div className="portpic portpic3">
+          <h3>Day Planner</h3>
+        </div>
+      </a>
+      <a href="https://adam-lowe.github.io/Weather-Dashboard/" target="_blank" rel="noopener noreferrer">
+        <div className="portpic portpic4">
+          <h3>Weather Dashboard</h3>
+        </div>
+      </a>
+      <a href="https://github.com/adam-lowe/Bored" target="_blank" rel="noopener noreferrer">
+        <div className="portpic portpic5">
+          <h3>!Bored</h3>
+        </div>
+      </a>
+      <a href="https://github.com/adam-lowe/Developer-Profile-Generator" target="_blank" rel="noopener noreferrer">
+        <div className="portpic portpic6">
+          <h3>Developer Profile Generator</h3>
+        </div>
+      </a>
+      <a href="https://stormy-plateau-23344.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+        <div className="portpic portpic7">
+          <h3>Note Taker</h3>
+        </div>
+      </a>
+      <a href="https://github.com/adam-lowe/Employee-Tracker" target="_blank" rel="noopener noreferrer">
+        <div className="portpic portpic8">
+          <h3>Employee Tracker</h3>
+        </div>
+      </a>
+      <a href="https://github.com/adam-lowe/ProjectTwoTheGame" target="_blank" rel="noopener noreferrer">
+        <div className="portpic portpic9">
+          <h3>Kul-de-sack Kombat</h3>
+        </div>
+      </a>
+      <a href="https://github.com/adam-lowe/Eat-Da-Burger" target="_blank" rel="noopener noreferrer">
+        <div className="portpic portpic10">
+          <h3>Eat-Da-Burger</h3>
+        </div>
+      </a>
+      <a href="https://github.com/adam-lowe/Fitness-Tracker" target="_blank" rel="noopener noreferrer">
+        <div className="portpic portpic11">
+          <h3>Fitness Tracker</h3>
+        </div>
+      </a>
+      <a href="https://github.com/adam-lowe/Off-On-Line-Budget-Tracker" target="_blank" rel="noopener noreferrer">
+        <div className="portpic portpic12">
+          <h3>Budget Tracker</h3>
+        </div>
+      </a>
+      <a href="https://github.com/adam-lowe/User-Directory" target="_blank" rel="noopener noreferrer">
+        <div className="portpic portpic13">
+          <h3>User Directory</h3>
+        </div>
+      </a>
+    </Grid>
+  </Wrapper>
+);
