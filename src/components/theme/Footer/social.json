@@ -10,5 +10,11 @@
     "name": "StackOverflow",
     "link": "https://stackoverflow.com/users/12127568/adam-lowe",
     "icon": "/icons/stackoverflow.svg"
+  },
+  {
+    "id": 1,
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/adam-lowe-2345ab193/",
+    "icon": "/icons/linkedin.svg"
   }
 ]
