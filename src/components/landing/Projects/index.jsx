@@ -62,7 +62,7 @@ export const Projects = () => (
       </a>
       <a href="https://github.com/adam-lowe/ProjectTwoTheGame" target="_blank" rel="noopener noreferrer">
         <div>
-          <h3 style={{ color: 'red' }}>Kul-de-sack Kombat</h3>
+          <h3 style={{ color: 'red' }}>Kul-da-sack Kombat</h3>
           <h4 style={{ color: 'slategrey' }}>Short turn-based game reminicent of old-school RPGs</h4>
         </div>
       </a>
