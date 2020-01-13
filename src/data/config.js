@@ -1,6 +1,6 @@
 module.exports = {
   defaultTitle: 'Adam Lowe',
-  logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
+  logo: 'https://adam-lowe.dev/favicon/favicon-512.png',
   author: 'Adam Lowe',
   url: 'https://adam-lowe.dev',
   legalName: 'Adam Lowe',
