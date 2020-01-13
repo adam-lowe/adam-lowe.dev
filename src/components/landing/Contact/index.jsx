@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'components/common';
-import contact from 'assets/illustrations/contact.svg';
+import duck from 'assets/images/duck.jpg';
 import { Wrapper, Details, Thumbnail } from './styles';
 import ContactForm from './ContactForm';
 
@@ -13,7 +13,7 @@ export const Contact = () => (
       </h2>
     </Details>
     <Thumbnail>
-      <img src={contact} alt="Contact me!" />
+      <img src={duck} alt="It's my Coding Buddy Linus" />
     </Thumbnail>
   </Wrapper>
 );
