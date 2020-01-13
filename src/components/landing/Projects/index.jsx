@@ -4,7 +4,9 @@ import { Wrapper, Grid } from './styles';
 
 export const Projects = () => (
   <Wrapper as={Container} id="projects">
-    <h2>Projects</h2>
+    <h1>Projects</h1>
+    <h2>(Some links lead to a deployed version while others lead to repo)</h2>
+    <br />
     <Grid>
       <a href="https://adam-lowe.github.io/Password-Generator/" target="_blank" rel="noopener noreferrer">
         <div className="portpic portpic1">
