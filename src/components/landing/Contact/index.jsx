@@ -11,6 +11,16 @@ export const Contact = () => (
       <h2>
         Email: <strong>lowedavidadam@gmail.com</strong>
       </h2>
+      <h3>
+        Oh, and if you like resumes,{' '}
+        <a
+          href="https://drive.google.com/file/d/1ljBml8pDiQSrxGmy3WXDWacd1us-S7-d/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here's mine!
+        </a>
+      </h3>
     </Details>
     <Thumbnail>
       <img src={duck} alt="It's my Coding Buddy Linus" />
