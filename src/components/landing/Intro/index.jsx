@@ -12,7 +12,6 @@ export const Intro = () => (
       <Details>
         <h1>Hi There!</h1>
         <h4>My name is Adam Lowe, and I'm a Full-Stack Web Developer!</h4>
-        <h6>(please excuse the mess, this site is brand new!)</h6>
       </Details>
       <Thumbnail>
         <img src={me} width="5%" height="5%" alt="I'm Adam, and I'm a Full-Stack Web Developer!" />
