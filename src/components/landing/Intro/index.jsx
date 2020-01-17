@@ -12,6 +12,7 @@ export const Intro = () => (
     <StickyHeader header={<Header />}></StickyHeader>
     <IntroWrapper as={Container}>
       <Details>
+        &nbsp;
         <h1>Hi There!</h1>
         <h4>My name is Adam Lowe, and I'm a Full-Stack Web Developer!</h4>
       </Details>
