@@ -7,6 +7,7 @@ import ContactForm from './ContactForm';
 export const Contact = () => (
   <Wrapper as={Container} id="contact">
     <Details>
+      &nbsp;
       <h1>Contact me!</h1>
       <h2>
         Email: <strong>lowedavidadam@gmail.com</strong>

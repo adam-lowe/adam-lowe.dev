@@ -16,6 +16,7 @@ const skillRet = skillArr.map(function(skill) {
 
 export const Skills = () => (
   <Wrapper id="about">
+    &nbsp;
     <SkillsWrapper as={Container}>
       <Thumbnail>
         <img src={collage} alt="I'm Adam, and I'm a Full-Stack Web Developer!" />
