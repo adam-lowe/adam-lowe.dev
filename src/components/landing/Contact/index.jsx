@@ -15,7 +15,7 @@ export const Contact = () => (
       <h3>
         Oh, and if you like resumes,{' '}
         <a
-          href="https://drive.google.com/file/d/1ljBml8pDiQSrxGmy3WXDWacd1us-S7-d/view?usp=sharing"
+          href="https://drive.google.com/file/d/1h_BJQDhzC43vY6Q20FUq0qjIdL8UtWpG/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
