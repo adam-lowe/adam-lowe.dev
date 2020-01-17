@@ -3,11 +3,13 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Header } from 'components/theme';
 import { Container, Button } from 'components/common';
 import me from 'assets/images/me.jpg';
+import StickyHeader from 'react-sticky-header';
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles';
+import 'react-sticky-header/styles.css';
 
 export const Intro = () => (
   <Wrapper>
-    <Header />
+    <StickyHeader header={<Header />}></StickyHeader>
     <IntroWrapper as={Container}>
       <Details>
         <h1>Hi There!</h1>

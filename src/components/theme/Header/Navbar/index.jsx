@@ -6,7 +6,7 @@ import NavbarLinks from '../NavbarLinks';
 import { Wrapper } from './styles';
 
 const Navbar = () => (
-  <Wrapper as={Container}>
+  <Wrapper as={Container} style={{ backgroundColor: 'white', padding: '0' }}>
     <Link to="/">
       <img src={logo} width="50px" height="50px" alt="It's my logo!" />
     </Link>
