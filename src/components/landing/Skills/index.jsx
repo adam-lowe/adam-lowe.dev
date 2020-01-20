@@ -22,7 +22,7 @@ export const Skills = () => (
         <img src={collage} alt="I'm Adam, and I'm a Full-Stack Web Developer!" />
       </Thumbnail>
       <Details>
-        <h1>A Little about me...</h1>
+        <h1>A little about me...</h1>
         <p>
           I am very passionate about coding, and recently graduated from UNCC's intensive Full-Stack bootcamp. Through
           this I've become very familiar with-
