@@ -33,14 +33,14 @@ export const Projects = () => (
       </a>
       <a href="https://github.com/adam-lowe/Coding-Quiz-Challenge/" target="_blank" rel="noopener noreferrer">
         <div>
-          <img src={codequiz} alt="Password Generator" />
+          <img src={codequiz} alt="Coding Quiz" />
           <h3>Coding Quiz</h3>
           <h4 style={{ color: 'slategrey' }}>A quick quiz that tests basic coding knowledge</h4>
         </div>
       </a>
       <a href="https://github.com/adam-lowe/Day-Planner/" target="_blank" rel="noopener noreferrer">
         <div>
-          <img src={dayplan} alt="Password Generator" />
+          <img src={dayplan} alt="Day Planner" />
           <h3>Day Planner</h3>
           <h4 style={{ color: 'slategrey' }}>
             Application that lets you plan out you're day (renders differently depending on time of day)
@@ -49,77 +49,77 @@ export const Projects = () => (
       </a>
       <a href="https://github.com/adam-lowe/Weather-Dashboard/" target="_blank" rel="noopener noreferrer">
         <div>
-          <img src={weather} alt="Password Generator" />
+          <img src={weather} alt="Weather Dashboard" />
           <h3>Weather Dashboard</h3>
           <h4 style={{ color: 'slategrey' }}>App that allows you to search a city and get it's weather report</h4>
         </div>
       </a>
       <a href="https://github.com/adam-lowe/Bored" target="_blank" rel="noopener noreferrer">
         <div>
-          <img src={bored} alt="Password Generator" />
+          <img src={bored} alt="!Bored" />
           <h3 style={{ color: 'green' }}>!Bored</h3>
           <h4 style={{ color: 'slategrey' }}>Helps the user find events happening in their area</h4>
         </div>
       </a>
       <a href="https://github.com/adam-lowe/Developer-Profile-Generator" target="_blank" rel="noopener noreferrer">
         <div>
-          <img src={profileGen} alt="Password Generator" />
+          <img src={profileGen} alt="Profile Generator" />
           <h3>Developer Profile Generator</h3>
           <h4 style={{ color: 'slategrey' }}>Uses inquirer to generate README version of github profile</h4>
         </div>
       </a>
-      <a href="https://stormy-plateau-23344.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/adam-lowe/Note-Taker" target="_blank" rel="noopener noreferrer">
         <div>
-          <img src={note} alt="Password Generator" />
+          <img src={note} alt="Note Taker" />
           <h3>Note Taker</h3>
           <h4 style={{ color: 'slategrey' }}>Uses database to remember notes recorded</h4>
         </div>
       </a>
       <a href="https://github.com/adam-lowe/Employee-Tracker" target="_blank" rel="noopener noreferrer">
         <div>
-          <img src={empTrack} alt="Password Generator" />
+          <img src={empTrack} alt="Employee Tracker" />
           <h3>Employee Tracker</h3>
           <h4 style={{ color: 'slategrey' }}>Command line program that uses mongodb to display an employee table</h4>
         </div>
       </a>
       <a href="https://github.com/adam-lowe/ProjectTwoTheGame" target="_blank" rel="noopener noreferrer">
         <div>
-          <img src={colorTheme} alt="Password Generator" />
+          <img src={colorTheme} alt="Kul-da-sack Kombat" />
           <h3 style={{ color: 'green' }}>Kul-da-sack Kombat</h3>
           <h4 style={{ color: 'slategrey' }}>Short turn-based game reminicent of old-school RPGs</h4>
         </div>
       </a>
       <a href="https://github.com/adam-lowe/Eat-Da-Burger" target="_blank" rel="noopener noreferrer">
         <div>
-          <img src={hamburger} alt="Password Generator" />
+          <img src={hamburger} alt="Eating Burgers" />
           <h3>Eat-Da-Burger</h3>
           <h4 style={{ color: 'slategrey' }}>Uses MySQL to remember what burgers you've made and/or eaten</h4>
         </div>
       </a>
       <a href="https://github.com/adam-lowe/Fitness-Tracker" target="_blank" rel="noopener noreferrer">
         <div>
-          <img src={fitTrack} alt="Password Generator" />
+          <img src={fitTrack} alt="Fitness Tracker" />
           <h3>Fitness Tracker</h3>
           <h4 style={{ color: 'slategrey' }}>Allows you to add and modify workout plans using mongoose</h4>
         </div>
       </a>
       <a href="https://github.com/adam-lowe/Off-On-Line-Budget-Tracker" target="_blank" rel="noopener noreferrer">
         <div>
-          <img src={budget} alt="Password Generator" />
+          <img src={budget} alt="Budget Tracker" />
           <h3>Budget Tracker</h3>
           <h4 style={{ color: 'slategrey' }}>Simple budget app that uses service workers to be available offline</h4>
         </div>
       </a>
       <a href="https://github.com/adam-lowe/User-Directory" target="_blank" rel="noopener noreferrer">
         <div>
-          <img src={userDirect} alt="Password Generator" />
+          <img src={userDirect} alt="User Directory" />
           <h3>User Directory</h3>
           <h4 style={{ color: 'slategrey' }}>Just a demo of a sortable table in REACT</h4>
         </div>
       </a>
       <a href="https://github.com/adam-lowe/Habbit" target="_blank" rel="noopener noreferrer">
         <div>
-          <img src={habbit} alt="Password Generator" />
+          <img src={habbit} alt="Habbit" />
           <h3 style={{ color: 'green' }}>Habbit</h3>
           <h4 style={{ color: 'slategrey' }}>Uses virtual pets to motivate its users into being productive</h4>
         </div>
