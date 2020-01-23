@@ -10,7 +10,7 @@ import profileGen from '../../../assets/images/action.gif';
 import note from '../../../assets/images/note.png';
 import empTrack from '../../../assets/images/tracker.gif';
 import colorTheme from '../../../assets/images/colortheme.png';
-import hamburger from '../../../assets/images/hamburger.jpg';
+import hangman from '../../../assets/images/hangman.gif';
 import fitTrack from '../../../assets/images/fit.gif';
 import budget from '../../../assets/images/budget.png';
 import userDirect from '../../../assets/images/direct.gif';
@@ -24,6 +24,15 @@ export const Projects = () => (
     </h3>
     <br />
     <Grid>
+      <a href="https://github.com/adam-lowe/ruby-hangman" target="_blank" rel="noopener noreferrer">
+        <div>
+          <img src={hangman} alt="Ruby Hangman15" />
+          <h3>Ruby Hangman</h3>
+          <h4 style={{ color: 'slategrey' }}>
+            This is a simple command line application that I built to get my feet wet with Ruby
+          </h4>
+        </div>
+      </a>
       <a href="https://github.com/adam-lowe/Habbit" target="_blank" rel="noopener noreferrer">
         <div>
           <img src={habbit} alt="Habbit14" />
