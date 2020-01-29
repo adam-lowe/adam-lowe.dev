@@ -1,5 +1,5 @@
 module.exports = {
-  defaultTitle: 'Adam Lowe',
+  defaultTitle: "Adam's site",
   logo: 'https://adam-lowe.dev/favicon/favicon-512.png',
   author: 'Adam Lowe',
   url: 'https://adam-lowe.dev',
