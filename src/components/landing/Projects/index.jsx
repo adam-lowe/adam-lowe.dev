@@ -72,7 +72,7 @@ export const Projects = () => (
         <div>
           <img src={empTrack} alt="Employee Tracker8" />
           <h3>Employee Tracker</h3>
-          <h4 style={{ color: 'slategrey' }}>Command line program that uses mongodb to display an employee table</h4>
+          <h4 style={{ color: 'slategrey' }}>Command line program that uses MySQL to display an employee table</h4>
         </div>
       </a>
       <a href="https://github.com/adam-lowe/Note-Taker" target="_blank" rel="noopener noreferrer">
