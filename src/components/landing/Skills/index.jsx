@@ -24,8 +24,8 @@ export const Skills = () => (
       <Details>
         <h1>A little about me...</h1>
         <p>
-          I am very passionate about coding, and recently graduated from UNCC's intensive Full-Stack bootcamp. Through
-          this I've become very familiar with-
+          I am very passionate about coding, and graduated from UNCC's intensive Full-Stack bootcamp. Through this I've
+          become very familiar with-
         </p>
         <ul>{skillRet}</ul>
       </Details>
