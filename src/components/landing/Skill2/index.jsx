@@ -25,10 +25,10 @@ export const Skill2 = () => (
     &nbsp;
     <SkillsWrapper as={Container}>
       <Thumbnail>
-        <img src={collage} alt="I'm Adam, and I'm a Full-Stack Web Developer!" />
+        <img src={collage} alt="A Collage of some of the skills I learned" />
       </Thumbnail>
       <Details>
-        <h1>Afterwards...</h1>
+        <h1>Tech Talent South</h1>
         <p>
           Almost immediately after, I heard about another program by Tech Talent South that was being sponsored by
           Cognizant. Through this program I became very familiar with-
