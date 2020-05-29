@@ -22,10 +22,10 @@ export const Skills = () => (
         <img src={collage} alt="A Collage of some of the skills I learned" />
       </Thumbnail>
       <Details>
-        <h1>How I Started my coding journey</h1>
+        <h1>How I Started My Coding Journey</h1>
         <p>
-          After a couple of years of taking free, self-guided lessons, I graduated from UNCC's intensive Full-Stack bootcamp. Through this I've
-          become very familiar with-
+          After a couple of years of taking free, self-guided lessons, I graduated from UNCC's intensive Full-Stack
+          bootcamp. Through this I've become very familiar with-
         </p>
         <ul>{skillRet}</ul>
       </Details>
