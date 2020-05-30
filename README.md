@@ -1,6 +1,6 @@
 # This is my site
 
-As of right now this site was built using a template, but when I find the time I will eventually try to build my own site from scratch
+This site was built using a template, but I feel I've made enough changes to call it my own at this point
 
 ## Built with
 
