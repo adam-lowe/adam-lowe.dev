@@ -29,7 +29,7 @@ export const Projects = () => (
           <img src={hangman} alt="Ruby Hangman15" />
           <h3>Ruby Hangman</h3>
           <h4 style={{ color: 'slategrey' }}>
-            This is a simple command line application that I built to get my feet wet with Ruby
+            Simple command line game that I built with Ruby
           </h4>
         </div>
       </a>
